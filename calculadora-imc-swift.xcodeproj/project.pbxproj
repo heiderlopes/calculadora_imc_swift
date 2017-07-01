@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC66D4A61F07C052006FCD6B /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66D4A51F07C052006FCD6B /* Pessoa.swift */; };
 		ACBB4CB01F07BEA500861B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB4CAF1F07BEA500861B3C /* AppDelegate.swift */; };
 		ACBB4CB21F07BEA500861B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB4CB11F07BEA500861B3C /* ViewController.swift */; };
 		ACBB4CB51F07BEA500861B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBB4CB31F07BEA500861B3C /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC66D4A51F07C052006FCD6B /* Pessoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
 		ACBB4CAC1F07BEA500861B3C /* calculadora-imc-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calculadora-imc-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBB4CAF1F07BEA500861B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACBB4CB11F07BEA500861B3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				ACBB4CAF1F07BEA500861B3C /* AppDelegate.swift */,
 				ACBB4CB11F07BEA500861B3C /* ViewController.swift */,
 				ACBB4CB31F07BEA500861B3C /* Main.storyboard */,
+				AC66D4A51F07C052006FCD6B /* Pessoa.swift */,
 				ACBB4CB61F07BEA500861B3C /* Assets.xcassets */,
 				ACBB4CB81F07BEA600861B3C /* LaunchScreen.storyboard */,
 				ACBB4CBB1F07BEA600861B3C /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBB4CB21F07BEA500861B3C /* ViewController.swift in Sources */,
+				AC66D4A61F07C052006FCD6B /* Pessoa.swift in Sources */,
 				ACBB4CB01F07BEA500861B3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +507,7 @@
 				ACBB4CD61F07BEA600861B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACBB4CD71F07BEA600861B3C /* Build configuration list for PBXNativeTarget "calculadora-imc-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				ACBB4CD91F07BEA600861B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACBB4CDA1F07BEA600861B3C /* Build configuration list for PBXNativeTarget "calculadora-imc-swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				ACBB4CDC1F07BEA600861B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
